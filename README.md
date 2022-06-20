@@ -1,11 +1,16 @@
-# Deployment of a FortiGate-VM (BYOL/PAYG)  on the AWS
+# Deployment of FortiGate and Juice-Shop in AWS
 ## Introduction
-A Terraform script to deploy a FortiGate-VM on AWS
+This procedure will deploy a FortiGate VM and a AWS Linux2 Server running Juice-shop.  The goal here is to set up a vulnerable web Application that can be used to demonstrate the Capabilities of FortiWeb Cloud.  Students will need to pay close attention to the Requirements section in in order to complete this lab in the allotted time.
 
 ## Requirements
 * [Terraform](https://learn.hashicorp.com/terraform/getting-started/install.html) >= 1.0.0
 * Terraform Provider AWS >= 3.63.0
 * Terraform Provider Template >= 2.2.0
+* Completed ITF request for FC1-10-WBCLD-655-02-DD	"FortiWeb-Cloud-WAF-as-a-Service 1 Year FortiWeb Cloud WAF-as-a-Service - Additional 1 web site"
+* AWS SE account with:
+   - AWS IAM user with:
+      - AmazonEC2FullAccess
+      - AmazonVPCFullAccess
 
 
 ## Deployment overview
