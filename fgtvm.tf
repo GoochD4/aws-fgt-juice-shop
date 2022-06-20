@@ -26,7 +26,7 @@ resource "aws_network_interface_sg_attachment" "internalattachment" {
 
 
 resource "aws_instance" "fgtvm" {
-  ami               = var.license_type == "payg" ? var.fgtvmbyolami[var.region] : var.fgtvmami[var.region]
+  ami               = var.license_type == "" ? var.fgtvmbyolami[var.region] : var.fgtvmami[var.region]
   instance_type     = var.size
   availability_zone = var.az1
   key_name          = var.keyname
