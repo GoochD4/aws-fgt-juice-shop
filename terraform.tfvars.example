@@ -3,4 +3,5 @@
 region = "<your region"
 availability_zone1 = "<your az1>"
 availability_zone2 = "<your az2>"
-keypair = "<your keypair>"
+access_key = <enter Access key id here>
+secret_key = <enter Secret access key here>
