@@ -11,6 +11,7 @@ resource "aws_network_interface" "eth1" {
   source_dest_check = false
 }
 
+#add comment
 
 resource "aws_network_interface_sg_attachment" "publicattachment" {
   depends_on           = [aws_network_interface.eth0]
