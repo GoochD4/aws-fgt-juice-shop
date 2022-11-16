@@ -5,6 +5,6 @@ id:
   app: e90a1206-4ad9-45ae-a8a2-4e816b3bc489
 
 dast:
-  url: http://3.19.107.198
+  url: http://choog.site
   fortipentest_scanner: true #true|false
   full_scan: true #true|false
